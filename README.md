@@ -58,3 +58,19 @@ class Solution {
     }
 };
 ```  
+### Key Features:
+* **Optimal Space:** Efficiently handles the $10^6$ constraint without memory overflow.
+* **Early Exit:** Returns `false` as soon as a mismatch is found, saving unnecessary comparisons.
+* **Case Sensitivity:** Designed for lowercase English letters as per problem constraints.
+
+--- 
+
+## 📝 Example
+**Input:** `s = "abba"`  
+**Execution:** - `s[0]` ('a') == `s[3]` ('a') 
+- `s[1]` ('b') == `s[2]` ('b')
+**Output:** `true`
+
+---
+*Optimized for high-volume string processing and competitive programming.*
+``` 
